@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ExamTopics Popup Removal",
+  "version": "1.0",
+  "description": "Lightweight Chrome extension that removes a dynamically injected UI popup on examtopics.com using simple, resource-efficient scripting.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.examtopics.com/*"],
+      "js": ["popup-removal.js"]
+    }
+  ]
+}

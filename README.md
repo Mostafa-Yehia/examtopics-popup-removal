@@ -16,6 +16,8 @@ No continuous polling, no background services, and no unnecessary permissions.
 
 ## Problem
 
+![popup example](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0ld3ork033mk6dva0p2r.png)
+
 - Popup is injected after page load
 - Manual dismissal is repetitive and not possible without manipulaing DOM content
 - Traditional page-load scripts are unreliable
